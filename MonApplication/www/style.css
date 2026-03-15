@@ -1,0 +1,114 @@
+body {
+   margin: 0; 
+}
+.picture {
+    width: clamp(75px 8vw 75px);
+    max-width: 50px;
+    height: auto;
+    
+}
+.image {
+    position: sticky;
+    top: -15px;
+    z-index: 1000;
+    height: 60px;
+    padding-left: 10px;
+    padding-right: 25px;
+    padding-top: 10px;
+    margin: 0;
+    background-color: rgb(219, 215, 215);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#titre {
+    color: rgb(61, 61, 61);
+    font-family: cursive;
+    font-size: clamp(20px, 5vw, 30px);
+}
+#dev {
+    width: clamp(60px 8vw 120px);
+    max-width: 60px;
+    height: auto;
+    border-radius: 20px;
+    margin: 15px;
+}
+.slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding: 20px;
+    margin: 10px;
+    width: 88%;
+    max-width: 100%;
+    height: 50%;
+    border-radius: 10px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.slides {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+.slides img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    flex:0 0 100%;
+}
+.slider::-webkit-scrollbar{
+    display: none;
+}
+
+#p1 {
+    font-size: 25px;
+}
+.slogan {
+    position: relative;
+    top: -20px;
+    background-color: rgb(219, 215, 215);
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+.hamburger {
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    cursor: pointer;
+    padding: 5px;
+}
+.hamburger span{
+    display: block;
+    width: 20px;
+    height: 3px;
+    background: black;
+    margin: 4px 0;
+}
+.hamburger:hover {
+    background-color: rgb(170, 169, 169);
+    border-radius: 10px;
+}
+.command {
+    background-color: rgb(18, 4, 100);
+    padding: 10px;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: fantasy;
+    font-size: 15px;
+}
+.command:hover {
+    background-color:blue;
+}
+.plus {
+    position: absolute;
+    top: 73%;
+    cursor: pointer;
+}
+
+
+
+ 

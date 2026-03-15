@@ -68,10 +68,10 @@ body {
 .slogan {
     position: relative;
     top: -20px;
-    background-color: rgb(219, 215, 215);
+    background-color: rgb(233, 223, 223);
     padding-left: 15px;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 5px;
     font-size: 20px;
 }
 .hamburger {

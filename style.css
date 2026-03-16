@@ -127,10 +127,9 @@ body {
     padding-left: 10px;
 }
 .texte{
-    /* font-size: clamp(5px, 3.5vw, 30px); */
+    font-size: clamp(10px, 3vw, 30px);
     margin: 10px;
-    max-width: 500px;
-    line-height: 1.6;
+    line-height: 1.3;
 }
 
  

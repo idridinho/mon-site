@@ -9,7 +9,7 @@ body {
 }
 .image {
     position: sticky;
-    top: -5px;
+    top: -3px;
     z-index: 1000;
     height: 60px;
     padding-left: 10px;

@@ -114,12 +114,21 @@ body {
     position: relative;
     left: 20px;
 }
-#pdg {
-    width: 50%;
+.presentation{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.photo {
+    width: 250px;
+    max-width: 500px;
     height: auto;
     border-radius: 50%;
     padding: 10px;
 }
-
+.texte{
+    font-size: clamp(5px, 3.5vw, 30px);
+    margin: 10px;
+}
 
  

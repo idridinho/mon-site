@@ -129,6 +129,8 @@ body {
 .texte{
     font-size: clamp(5px, 3.5vw, 30px);
     margin: 10px;
+    
+    line-height: 1.3;
 }
 
  

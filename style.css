@@ -67,11 +67,11 @@ body {
 }
 .slogan {
     position: relative;
-    top: -20px;
+    top: 7px;
     padding-left: 15px;
     padding-top: 15px;
     padding-bottom: 3px;
-    font-size: 85%;
+    
 }
 .hamburger {
     position: absolute;

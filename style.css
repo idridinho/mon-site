@@ -118,6 +118,7 @@ body {
     display: flex;
     align-items: center;
     gap: 5px;
+    background-color: rgb(199, 199, 243);
 }
 .photo {
     width: 200px;
